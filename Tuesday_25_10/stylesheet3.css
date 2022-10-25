@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-gap: 30px;
+}
+.box1{
+    background-color: black;
+    width: 98vw;
+    height: 10vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box2{
+    background-color: orange;
+    width: 50vw;
+    height: 50vh;
+  
+}
+.box3{
+    background-color:green;
+    width: 48vw;
+    height: 50vh;
+}
+
+.box4{
+    background-color: blue;
+    width: 197%;
+    height: 10vh;
+}

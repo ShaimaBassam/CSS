@@ -1,0 +1,22 @@
+body{
+    background-color: #fffebb;
+}
+.container{
+    border: white;
+    background-color:white;
+    border-radius: 10%;
+    height: 60vh;
+    width: 20vw;
+    margin-left: 40vw;
+}
+
+.list-item{
+    display: flex;
+}
+.list-item__image{
+    font-size: 5vw;
+    padding-right: 2vw;
+    padding-left: 3vw;
+    padding-bottom: 3vh;
+}
+   

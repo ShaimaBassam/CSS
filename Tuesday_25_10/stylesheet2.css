@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: -10px;
+    height: 5vw;
+    width: 90vw;
+}
+ img{
+width: 80%;
+height: 75%;
+}

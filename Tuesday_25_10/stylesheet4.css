@@ -1,0 +1,30 @@
+body{background-color: peru;}
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: -10px;
+    height: 5vw;
+    width: 90vw;
+    
+}
+ img{
+width: 80%;
+height: 75%;
+border: 2px solid black;
+}
+h1{color: rgb(204, 203, 203);
+    
+}
+@media screen and (min-width: 414px) {
+    body {
+      background-color: rgb(238, 144, 169);
+    }
+  }
+
+@media screen and (max-width: 896px) {
+    body {
+      background-color: rgb(82, 2, 23);
+    }
+  }
